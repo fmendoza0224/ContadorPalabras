@@ -8,6 +8,10 @@
     <DocumentationFile>D:\PruebaTecnicaFredyMendoza\PruebaFredyMendoza\ContadorPalabras.Api\ContadorPalabras.Api.xml</DocumentationFile>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\ContadorPalabras\PruebaFredyMendoza\ContadorPalabras.Api\ContadorPalabras.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="SonarAnalyzer.CSharp" Version="8.27.0.35380">
       <PrivateAssets>all</PrivateAssets>
