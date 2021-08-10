@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ContadorPalabras.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ContadorPalabras.Api.Controllers.ContadorPalabrasController.ContarPalabras(System.String)">
+            <summary>
+            Este servicio retorna un listado de las palabras que se encuentran dentro del texto y la cantidad de veces que se repite ordenando de manera descedente por la cantidad de repeticiones.
+            </summary>
+            <param name="texto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
