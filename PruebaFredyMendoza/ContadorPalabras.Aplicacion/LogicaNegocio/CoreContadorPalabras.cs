@@ -16,7 +16,7 @@ namespace ContadorPalabras.Aplicacion
         {
             try
             {
-                List<string> listaPalabras = texto.ToUpper().ReemplazarCaracteres().Split(' ').Where(exp => !string.IsNullOrEmpty(exp)).ToList();
+                List<string> listaPalabras = texto.ToLower().ReemplazarCaracteres().Split(' ').Where(exp => !string.IsNullOrEmpty(exp)).ToList();
 
                 return listaPalabras.GroupBy(exp => exp)
                                           .Select(exp => new ContadorPalabra { Palabra = exp.Key, NumeroRepeticiones = exp.Count() })
