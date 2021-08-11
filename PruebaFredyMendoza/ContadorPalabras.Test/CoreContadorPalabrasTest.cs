@@ -16,9 +16,9 @@ namespace ContadorPalabras.Test
         {
             listaPalabras = new List<ContadorPalabra>
             {
-                new ContadorPalabra { Palabra = "NET", NumeroRepeticiones = 7 },
+                new ContadorPalabra { Palabra = "net", NumeroRepeticiones = 7 },
                 new ContadorPalabra { Palabra = "de", NumeroRepeticiones = 6 },
-                new ContadorPalabra { Palabra = "Python", NumeroRepeticiones = 4 }
+                new ContadorPalabra { Palabra = "python", NumeroRepeticiones = 4 }
             };
 
             texto = "Python.NET () es un paquete que ofrece a los programadores de Python una integración casi perfecta con .NET 4.0+ Common Language Runtime (CLR) en Windows y mono runtime en Linux y OSX. Python.NET proporciona una eficaz herramienta de scripting de aplicaciones para los desarrolladores de .NET. Con este paquete puede crear scripts de aplicaciones .NET o crear aplicaciones completas en Python, utilizando servicios y componentes de .NET escritos en cualquier lenguaje destinado a CLR (C#, VB.NET, F#, C++/CLI)";
